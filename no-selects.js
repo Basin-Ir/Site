@@ -10,3 +10,4 @@ if (window.sidebar){
 document.onmousedown=disableselect
 document.onclick=reEnable
 }
+ 
