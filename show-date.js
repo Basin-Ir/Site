@@ -28,3 +28,4 @@ default: break;
 }
 document.write(" "+week[d]+" "+day+" "+months[month-1]+" "+ year);
 }
+ 
