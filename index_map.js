@@ -3,7 +3,7 @@
 // as you drag it north or south.
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 9,
+    zoom: 3,
     center: { lat: 24.886, lng: -70.268 },
     mapTypeId: "terrain",
   });
@@ -12,7 +12,11 @@ function initMap() {
     { lat: 18.466, lng: -46.118 },
     { lat: 32.321, lng: -44.757 },
   ];
-
+  const redCoords = [
+    { lat: 25.774, lng: -80.19 },
+    { lat: 18.466, lng: -66.118 },
+    { lat: 32.321, lng: -64.757 },
+  ];
   // Construct a draggable red triangle with geodesic set to true.
   new google.maps.Polygon({
     map,
