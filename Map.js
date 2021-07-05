@@ -1,50 +1,44 @@
-var map; // Global declaration of the map
-var iw = new google.maps.InfoWindow(); // Global declaration of the infowindow
-var lat_longs = new Array();
-var markers = new Array();
-var drawingManager;
-
-function initialize() {
-  var myLatlng = new google.maps.LatLng(40.9403762, -74.1318096);
-  var myOptions = {
-    zoom: 13,
-    center: myLatlng,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  }
-  map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
-  drawingManager = new google.maps.drawing.DrawingManager({
-    drawingMode: google.maps.drawing.OverlayType.POLYGON,
-    drawingControl: true,
-    drawingControlOptions: {
-      position: google.maps.ControlPosition.TOP_CENTER,
-      drawingModes: [google.maps.drawing.OverlayType.POLYGON]
-    },
-    polygonOptions: {
-      editable: true
-    }
+// This example creates draggable triangles on the map.
+// Note also that the red triangle is geodesic, so its shape changes
+// as you drag it north or south.
+function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 1,
+    center: { lat: 24.886, lng: -70.268 },
+    mapTypeId: "terrain",
   });
-  drawingManager.setMap(map);
-
-  google.maps.event.addListener(drawingManager, "overlaycomplete", function(event) {
-    var newShape = event.overlay;
-    newShape.type = event.type;
+  const blueCoords = [
+    { lat: 25.774, lng: -60.19 },
+    { lat: 18.466, lng: -46.118 },
+    { lat: 32.321, lng: -44.757 },
+  ];
+  const redCoords = [
+    { lat: 25.774, lng: -80.19 },
+    { lat: 18.466, lng: -66.118 },
+    { lat: 32.321, lng: -64.757 },
+  ];
+  // Construct a draggable red triangle with geodesic set to true.
+  new google.maps.Polygon({
+    map,
+    paths: redCoords,
+    strokeColor: "#FF0000",
+    strokeOpacity: 0.8,
+    strokeWeight: 2,
+    fillColor: "#FF0000",
+    fillOpacity: 0.35,
+    draggable: true,
+    geodesic: true,
   });
-
-  google.maps.event.addListener(drawingManager, "overlaycomplete", function(event) {
-    overlayClickListener(event.overlay);
-    $('#vertices').val(event.overlay.getPath().getArray());
+  // Construct a draggable blue triangle with geodesic set to false.
+  new google.maps.Polygon({
+    map,
+    paths: blueCoords,
+    strokeColor: "#0000FF",
+    strokeOpacity: 0.8,
+    strokeWeight: 2,
+    fillColor: "#0000FF",
+    fillOpacity: 0.35,
+    draggable: true,
+    geodesic: false,
   });
 }
-
-function overlayClickListener(overlay) {
-  google.maps.event.addListener(overlay, "mouseup", function(event) {
-    $('#vertices').val(overlay.getPath().getArray());
-  });
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-
-$(function() {
-  $('#save').click(function() {
-    //iterate polygon vertices?
-  });
-});
