@@ -3,7 +3,7 @@
 // as you drag it north or south.
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 13,
+    zoom: 9,
     center: { lat: 24.886, lng: -70.268 },
     mapTypeId: "terrain",
   });
