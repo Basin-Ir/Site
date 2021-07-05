@@ -1,53 +1,50 @@
-/**
- * Adds a polygon to the map
- *
- * @param  {H.Map} map      A HERE Map instance within the application
- */
-function addPolygonToMap(map) {
-  var lineString = new H.geo.LineString(
-    [52, 13, 100, 48, 2, 100, 48, 16, 100, 52, 13, 100],
-    'values lat lng alt'
-  );
-  map.addObject(
-    new H.map.Polygon(lineString, {
-      style: {
-        fillColor: '#FFFFCC',
-        strokeColor: '#829',
-        lineWidth: 8
-      }
-    })
-  );
+var map; // Global declaration of the map
+var iw = new google.maps.InfoWindow(); // Global declaration of the infowindow
+var lat_longs = new Array();
+var markers = new Array();
+var drawingManager;
+
+function initialize() {
+  var myLatlng = new google.maps.LatLng(40.9403762, -74.1318096);
+  var myOptions = {
+    zoom: 13,
+    center: myLatlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
+  drawingManager = new google.maps.drawing.DrawingManager({
+    drawingMode: google.maps.drawing.OverlayType.POLYGON,
+    drawingControl: true,
+    drawingControlOptions: {
+      position: google.maps.ControlPosition.TOP_CENTER,
+      drawingModes: [google.maps.drawing.OverlayType.POLYGON]
+    },
+    polygonOptions: {
+      editable: true
+    }
+  });
+  drawingManager.setMap(map);
+
+  google.maps.event.addListener(drawingManager, "overlaycomplete", function(event) {
+    var newShape = event.overlay;
+    newShape.type = event.type;
+  });
+
+  google.maps.event.addListener(drawingManager, "overlaycomplete", function(event) {
+    overlayClickListener(event.overlay);
+    $('#vertices').val(event.overlay.getPath().getArray());
+  });
 }
 
-/**
- * Boilerplate map initialization code starts below:
- */
+function overlayClickListener(overlay) {
+  google.maps.event.addListener(overlay, "mouseup", function(event) {
+    $('#vertices').val(overlay.getPath().getArray());
+  });
+}
+google.maps.event.addDomListener(window, 'load', initialize);
 
-//Step 1: initialize communication with the platform
-// In your own code, replace variable window.apikey with your own apikey
-var platform = new H.service.Platform({
-  apikey: window.apikey
+$(function() {
+  $('#save').click(function() {
+    //iterate polygon vertices?
+  });
 });
-var defaultLayers = platform.createDefaultLayers();
-
-//Step 2: initialize a map - this map is centered over Europe
-var map = new H.Map(document.getElementById('map'),
-  defaultLayers.vector.normal.map,{
-  center: {lat:52, lng:5},
-  zoom: 5,
-  pixelRatio: window.devicePixelRatio || 1
-});
-// add a resize listener to make sure that the map occupies the whole container
-window.addEventListener('resize', () => map.getViewPort().resize());
-
-//Step 3: make the map interactive
-// MapEvents enables the event system
-// Behavior implements default interactions for pan/zoom (also on mobile touch environments)
-var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
-
-// Create the default UI components
-var ui = H.ui.UI.createDefault(map, defaultLayers);
-
-
-// Now use the map as required...
-addPolygonToMap(map);
