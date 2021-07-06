@@ -1,44 +1,101 @@
-// This example creates draggable triangles on the map.
-// Note also that the red triangle is geodesic, so its shape changes
-// as you drag it north or south.
-function initMap() {
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 3,
-    center: { lat: 24.886, lng: -70.268 },
-    mapTypeId: "terrain",
-  });
-  const blueCoords = [
-    { lat: 25.774, lng: -60.19 },
-    { lat: 18.466, lng: -46.118 },
-    { lat: 32.321, lng: -44.757 },
-  ];
-  const redCoords = [
-    { lat: 25.774, lng: -80.19 },
-    { lat: 18.466, lng: -66.118 },
-    { lat: 32.321, lng: -64.757 },
-  ];
-  // Construct a draggable red triangle with geodesic set to true.
-  new google.maps.Polygon({
-    map,
-    paths: redCoords,
-    strokeColor: "#FF0000",
-    strokeOpacity: 0.8,
-    strokeWeight: 2,
-    fillColor: "#FF0000",
-    fillOpacity: 0.35,
-    draggable: true,
-    geodesic: true,
-  });
-  // Construct a draggable blue triangle with geodesic set to false.
-  new google.maps.Polygon({
-    map,
-    paths: blueCoords,
-    strokeColor: "#0000FF",
-    strokeOpacity: 0.8,
-    strokeWeight: 2,
-    fillColor: "#0000FF",
-    fillOpacity: 0.35,
-    draggable: true,
-    geodesic: false,
-  });
-}
+
+	mapboxgl.accessToken = 'pk.eyJ1IjoiYmFzaW4tbGFiIiwiYSI6ImNrcWw3ajhsYzAxNHkydm9hZ3dyY2xkeHkifQ.L0S8kwfD0By5nbKKl5hKTw';
+    var coordinates = document.getElementById('coordinates');
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [0, 0],
+        zoom: 2
+    });
+
+    var canvas = map.getCanvasContainer();
+
+    var geojson = {
+        'type': 'FeatureCollection',
+        'features': [
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [0, 0]
+                }
+            }
+        ]
+    };
+
+    function onMove(e) {
+        var coords = e.lngLat;
+
+        // Set a UI indicator for dragging.
+        canvas.style.cursor = 'grabbing';
+
+        // Update the Point feature in `geojson` coordinates
+        // and call setData to the source layer `point` on it.
+        geojson.features[0].geometry.coordinates = [coords.lng, coords.lat];
+        map.getSource('point').setData(geojson);
+    }
+
+    function onUp(e) {
+        var coords = e.lngLat;
+
+        // Print the coordinates of where the point had
+        // finished being dragged to on the map.
+        coordinates.style.display = 'block';
+        coordinates.innerHTML =
+            'Longitude: ' + coords.lng + '<br />Latitude: ' + coords.lat;
+        canvas.style.cursor = '';
+
+        // Unbind mouse/touch events
+        map.off('mousemove', onMove);
+        map.off('touchmove', onMove);
+    }
+
+    map.on('load', function () {
+        // Add a single point to the map.
+        map.addSource('point', {
+            'type': 'geojson',
+            'data': geojson
+        });
+
+        map.addLayer({
+            'id': 'point',
+            'type': 'circle',
+            'source': 'point',
+            'paint': {
+                'circle-radius': 10,
+                'circle-color': '#F84C4C' // red color
+            }
+        });
+
+        // When the cursor enters a feature in
+        // the point layer, prepare for dragging.
+        map.on('mouseenter', 'point', function () {
+            map.setPaintProperty('point', 'circle-color', '#3bb2d0');
+            canvas.style.cursor = 'move';
+        });
+
+        map.on('mouseleave', 'point', function () {
+            map.setPaintProperty('point', 'circle-color', '#3887be');
+            canvas.style.cursor = '';
+        });
+
+        map.on('mousedown', 'point', function (e) {
+            // Prevent the default map drag behavior.
+            e.preventDefault();
+
+            canvas.style.cursor = 'grab';
+
+            map.on('mousemove', onMove);
+            map.once('mouseup', onUp);
+        });
+
+        map.on('touchstart', 'point', function (e) {
+            if (e.points.length !== 1) return;
+
+            // Prevent the default map drag behavior.
+            e.preventDefault();
+
+            map.on('touchmove', onMove);
+            map.once('touchend', onUp);
+        });
+    });
