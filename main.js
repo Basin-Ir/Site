@@ -48,7 +48,7 @@ var map = new Map({
     new TileLayer({
       source: new XYZ({
         attributions: attributions,
-        url: 'https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=' + key,
+        url: 'https://api.maptiler.com/maps/outdoor/?key=kAB40FUJPm1wyRlVsNwV#4.0/32.57559/54.78620,
         tileSize: 512,
       }),
     }) ],
