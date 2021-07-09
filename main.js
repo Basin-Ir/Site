@@ -35,7 +35,7 @@ closer.onclick = function () {
   return false;
 };
 
-var key = 'Get your own API key at https://www.maptiler.com/cloud/';
+var key = 'kAB40FUJPm1wyRlVsNwV';
 var attributions =
   '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> ' +
   '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>';
@@ -48,7 +48,7 @@ var map = new Map({
     new TileLayer({
       source: new XYZ({
         attributions: attributions,
-        url: 'https://api.maptiler.com/maps/outdoor/?key=kAB40FUJPm1wyRlVsNwV#4.0/32.57559/54.78620,
+        url: 'https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=' + key,
         tileSize: 512,
       }),
     }) ],
