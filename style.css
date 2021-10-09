@@ -8623,8 +8623,8 @@ height: 5px;
 
 .kopa-single-post .entry-title {
   font-size: 25px;
-  font-weight: 300;
-  line-height: 10px;
+  font-weight: 400;
+  line-height: 20px;
   margin-top: 0;
   margin-bottom: 10px;
   text-transform: uppercase; }
@@ -8824,7 +8824,7 @@ height: 5px;
   margin: 10px 0; }
 .kopa-single-page .entry-title {
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 20px; }
 .kopa-single-page .kopa-contact-info-widget {
   float: left;
