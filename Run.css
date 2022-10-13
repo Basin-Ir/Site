@@ -1,85 +1,71 @@
-/* This is the submit button styles */
-button {
-  display: block;
-  margin: 0 auto;
-  padding: .6em .8em;
-   /* Font-size is the root value that determines size of spinner parts. Change this to whatever you want and spinner elements will size to match. */
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: .4em;
-  border: none;
-  overflow: hidden;
-  cursor: pointer;
-  position: relative;
-  transition: all 1s;
+* {
+  font-family: 'B Yekan', sans-serif;
 }
-
-/* focus/disabled styles, you can change this for accessibility */
-button:focus, button:disabled {
-  outline: none;
-  background: #aaa;
-}
-
-/* This is the space for the spinner to appear, applied to the button */
-.spin {
-  padding-left: 2.5em;
-  display: block;
-}
-
-/* position of the spinner when it appears, you might have to change these values */
-.spin .spinner {
-  left: -.6em;
-  top: .4em;
-  width: 2.5em;
-  display: block;
-  position: absolute;
-}
-
-/* spinner animation */
-@keyframes spinner {
-  0% {
-    transform: rotate(0deg);
-  }
-  
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* The actual spinner element is a pseudo-element */
-.spin .spinner::before {
-  content: "";
-  width: 1.5em; /* Size of the spinner */
-  height: 1.5em; /* Change as desired */
+.container {
   position: absolute;
   top: 50%;
   left: 50%;
-  border-radius: 50%;
-  border: solid .35em #999; /* Thickness/color of spinner track */
-  border-bottom-color: #555; /* Color of variant spinner piece */
-  animation: .8s linear infinite spinner; /* speed of spinner */
-  transform: translate(-50%, -50%);
-  will-change: transform;
+  margin-left: -65px;
+  margin-top: -20px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
 }
-
-/* optional, but it will affect the size if changed */
-*, *::before, *::after {
-  box-sizing: border-box;
+button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #1ECD97;
+  color: #1ECD97;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
 }
-
-p {
-  text-align: left;
-  padding: 0 20px;
+button:hover {
+  color: white;
+  background: #1ECD97;
 }
-
-form p {
-  text-align: center;  
+button:active {
+  letter-spacing: 2px;
 }
-
-fieldset {
-  border-radius: 10px;
+button:after {
+  content: "SUBMIT";
 }
-
-code {
-  color: firebrick;
+.onclic {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: #1ECD97;
+  animation: rotating 2s 0.25s linear infinite;
+}
+.onclic:after {
+  content: "";
+}
+.onclic:hover {
+  color: #1ECD97;
+  background: white;
+}
+.validate {
+  font-size: 13px;
+  color: white;
+  background: #1ECD97;
+}
+.validate:after {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
