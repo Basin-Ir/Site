@@ -1,58 +1,75 @@
+$green: #1ECD97;
+$gray: #bbbbbb;
+.container___ {
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left: -65px;
+  margin-top: -20px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+}
 button___ {
-	 outline: none;
-	 height: 40px;
-	 text-align: center;
-	 width: 130px;
-	 border-radius: 40px;
-	 background: #fff;
-	 border: 2px solid #009be3;
-	 color: #009be3;
-	 letter-spacing: 1px;
-	 text-shadow: 0;
-	 font-size: 13px;
-	 font-weight: bold;
-	 cursor: pointer;
-	 transition: all 0.25s ease;
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: #fff;
+  border: 2px solid $green;
+  color:$green;
+  letter-spacing:1px;
+  text-shadow:0;
+  font:{
+    size:12px;
+    weight:bold;
+  }
+  cursor: pointer;
+  transition: all 0.25s ease;
+  &:hover {
+    color:white;
+    background: $green;
+  }
+  &:active {
+    //letter-spacing: 2px;
+    letter-spacing: 2px ;
+  }
+  &:after {
+    content:"SUBMIT";
+  }
 }
- button___:hover {
-	 color: white;
-	 background: #009be3;
+.onclic {
+  width: 40px;
+  border-color:$gray;
+  border-width:3px;
+  font-size:0;
+  border-left-color:$green;
+  animation: rotating 2s 0.25s linear infinite;
+
+  &:after {
+    content:"";
+  }
+  &:hover {
+    color:$green;
+    background: white;
+  }
 }
- button___:active {
-	 letter-spacing: 2px;
+.validate {
+  font-size:13px;
+  color: white;
+  background: $green;
+  &:after {
+    font-family:'FontAwesome';
+    content:"\f00c";
+  }
 }
- button___:after {
-	 content: "اجرای پردازش";
-}
- .onclic {
-	 width: 40px;
-	 border-color: #bbb;
-	 border-width: 3px;
-	 font-size: 0;
-	 border-left-color: #009be3;
-	 animation: rotating 2s 0.25s linear infinite;
-}
- .onclic:after {
-	 content: "";
-}
- .onclic:hover {
-	 color: #009be3;
-	 background: white;
-}
- .validate {
-	 font-size: 13px;
-	 color: white;
-	 background: #009be3;
-}
- .validate:after {
-	 font-family: "FontAwesome";
-	 content: "\f00c";
-}
- @keyframes rotating {
-	 from {
-		 transform: rotate(0deg);
-	}
-	 to {
-		 transform: rotate(360deg);
-	}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
