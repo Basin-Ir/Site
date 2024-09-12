@@ -4315,7 +4315,7 @@ a.list-group-item-danger {
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 13px;
   color: inherit; }
   .panel-title > a {
     color: inherit; }
@@ -6614,7 +6614,7 @@ ul.pager-page {
     right: -30px; }
   ul.pager-page .prev-post-title,
   ul.pager-page .next-post-title {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 20px;
     margin: 0;
     margin-bottom: 5px;
@@ -6811,7 +6811,7 @@ padding: 5px;
       border: 1px solid #dadada;
       margin-right: 10px;
       float: left;
-      font-size: 16px;
+      font-size: 13px;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
@@ -6943,7 +6943,7 @@ padding: 5px;
     position: absolute;
     right: 0;
     top: 0;
-    font-size: 16px;
+    font-size: 13px;
     color: #dadada; }
     .widget_search button:hover {
       background: #7285A8; }
@@ -7627,7 +7627,7 @@ padding: 5px;
       color: #7285A8; }
 
 .kopa-list-posts-widget .post-title {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 20px;
   font-weight: 400;
   margin-bottom: 5px; }
@@ -7687,7 +7687,7 @@ padding: 5px;
     left: 0;
     background: #d8d8d8; }
 .kopa-list-posts-2-widget .post-title {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 20px;
   font-weight: 400;
   margin-bottom: 5px; }
@@ -7837,7 +7837,7 @@ padding: 5px;
     .kopa-post-filter-2-widget .post-cat a:hover {
       color: #292929; }
 .kopa-post-filter-2-widget .post-title {
-  font-size: 16px;
+  font-size: 13px;
   text-align: center;
   margin-bottom: 8px; }
 .kopa-post-filter-2-widget .post-caption {
@@ -8045,7 +8045,7 @@ padding: 5px;
     .kopa-small-thumb-lightbox-carousel .widget-content > ul > li:first-child {
       margin-top: 0; }
 .kopa-small-thumb-lightbox-carousel .post-cat {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   margin: 0;
   padding-right: 50px;
@@ -8263,7 +8263,7 @@ height: 5px;
       height: 40px;
       line-height: 40px;
       color: #fff;
-      font-size: 16px;
+      font-size: 13px;
       text-align: center;
       cursor: pointer; }
       .kopa-post-filter-widget .filters span:hover {
@@ -8709,7 +8709,7 @@ height: 5px;
 .kopa-single-post .admin-rating .kopa-rate {
   color: #fff !important; }
 .kopa-single-post .admin-rating h3 {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 20px;
   text-transform: uppercase;
   color: #fff;
@@ -8820,7 +8820,7 @@ height: 5px;
 .kopa-single-page .element-title {
   color: #7285A8;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 13px;
   margin: 10px 0; }
 .kopa-single-page .entry-title {
   font-size: 20px;
@@ -8865,7 +8865,7 @@ height: 5px;
   .kopa-author .author-title {
     margin-bottom: 5px;
     margin-top: 0;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 20px; }
   .kopa-author p {
