@@ -6413,7 +6413,7 @@ body {
     background: none;
     padding: 10px 0; }
     .sf-menu.main-menu > li > a {
-      font-size: 17px;
+      font-size: 13px;
       font-family: "B Yekan",tahoma;
       font-weight: normal;
       padding: 0 15px;
@@ -6881,7 +6881,7 @@ padding: 5px;
     overflow: visible; }
   .kopa-full-width-sync-carousel-widget .sync2 .owl-item {
     width: auto !important;
-    margin-right: 17px; }
+    margin-right: 13px; }
     .kopa-full-width-sync-carousel-widget .sync2 .owl-item.synced .item {
       width: 200px;
       height: 200px;
@@ -6981,7 +6981,7 @@ padding: 5px;
   .widget-small-thumb-carousel-widget .widget-content {
     margin: 0 -3px; }
   .widget-small-thumb-carousel-widget .owl-item {
-    padding-bottom: 17px; }
+    padding-bottom: 13px; }
   .widget-small-thumb-carousel-widget .item {
     margin: 0 3px;
     border-bottom: 3px solid #7285A8; }
@@ -7185,7 +7185,7 @@ padding: 5px;
   border-bottom: 5px solid #7285A8;
   margin-bottom: 25px; }
 .kopa-big-thumb-widget .post-title {
-  font-size: 17px;
+  font-size: 13px;
   font-weight: 400;
   margin-bottom: 10px; }
 .kopa-big-thumb-widget .post-meta {
@@ -7403,7 +7403,7 @@ padding: 5px;
   font-size: 11px;
   margin-bottom: 10px; }
 .kopa-tabs-widget .post-title {
-  font-size: 17px;
+  font-size: 13px;
   margin-bottom: 10px;
   font-weight: 400; }
 .kopa-tabs-widget .post-caption p {
@@ -7467,7 +7467,7 @@ padding: 5px;
       .widget-area-15 .kopa-two-post-widget .item:hover .post-caption {
         top: 180px; }
     .widget-area-15 .kopa-two-post-widget .post-title {
-      font-size: 17px;
+      font-size: 13px;
       font-weight: 400;
       margin-bottom: 15px;
       text-align: left; }
@@ -8040,7 +8040,7 @@ padding: 5px;
   margin-bottom: 0; }
   .kopa-small-thumb-lightbox-carousel .widget-content > ul > li {
     position: relative;
-    margin-top: 17px;
+    margin-top: 13px;
     display: block; }
     .kopa-small-thumb-lightbox-carousel .widget-content > ul > li:first-child {
       margin-top: 0; }
@@ -8085,7 +8085,7 @@ padding: 5px;
   font-size: 11px;
   margin-bottom: 10px; }
 .kopa-posts-widget.first-big .item:first-child .post-title {
-  font-size: 17px;
+  font-size: 13px;
   margin-bottom: 10px; }
 .kopa-posts-widget.first-big .item:first-child p {
   font-size: 12px;
@@ -8296,7 +8296,7 @@ height: 5px;
     border-bottom: 5px solid #7285A8;
     margin-bottom: 25px; }
   .kopa-post-filter-widget .post-title {
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 400;
     margin-bottom: 10px; }
   .kopa-post-filter-widget .post-meta {
