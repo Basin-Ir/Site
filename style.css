@@ -5820,7 +5820,7 @@ ul.mobile-menu {
   font-size: 20px;
   margin: 0; }
   .kopa-full-width-sync-carousel-widget .sync1 .owl-controls .owl-buttons div:hover, .kopa-two-col-sync-carousel-2-widget .sync5 .owl-controls .owl-buttons div:hover {
-    background: #131313 !important; }
+    background: #000333 !important; }
 
 .kopa-posts-widget ul, .kopa-accordion-widget ul {
   margin-bottom: 0; }
@@ -5952,7 +5952,7 @@ blockquote {
     color: #fff;
     line-height: 40px;
     text-align: center;
-    background: #131313;
+    background: #000333;
     position: absolute;
     left: 0;
     top: 0; }
@@ -6002,7 +6002,7 @@ blockquote {
     border-color: #538fff; }
   .nav-tabs.kopa-tabs-2 li a {
     color: #fff;
-    background: #131313;
+    background: #000333;
     margin-right: 2px; }
   .nav-tabs.kopa-tabs-2 li a:hover, .nav-tabs.kopa-tabs-2 li.active a, .nav-tabs.kopa-tabs-2 li.active a:focus, .nav-tabs.kopa-tabs-2 li.active a:hover, .nav-tabs.kopa-tabs-2 li a:focus {
     background: #3f3f3f;
@@ -6084,7 +6084,7 @@ blockquote {
 .kopa-dropcap {
   text-transform: uppercase;
   color: #fff;
-  background: #131313;
+  background: #000333;
   float: left;
   margin-right: 10px;
   text-align: center;
@@ -6094,7 +6094,7 @@ blockquote {
   line-height: 40px;
   font-size: 24px;
   font-weight: 700;
-  border: 1px solid #131313; }
+  border: 1px solid #000333; }
   .kopa-dropcap.primary {
     background: #538fff;
     border-color: #538fff; }
@@ -6105,7 +6105,7 @@ blockquote {
     border-radius: 50%; }
   .kopa-dropcap.no-background {
     background: none;
-    color: #131313;
+    color: #000333;
     border-color: #d8d8d8; }
     .kopa-dropcap.no-background.primary {
       color: #538fff;
@@ -6297,7 +6297,7 @@ body {
   position: relative;
   height: 50px;
   line-height: 50px;
-  background: #131313;
+  background: #000333;
   bottom: auto; }
   #kopa-header.header-2 .wrap-second-menu .kopa-social-widget {
     float: right;
@@ -6321,7 +6321,7 @@ body {
 #kopa-header.header-2 .wrap-main-menu .widget_search button, #kopa-header.header-2 .wrap-main-menu .widget_search input {
   height: 40px; }
 #kopa-header.header-2 .wrap-main-menu .widget_search button:hover {
-  background: #131313; }
+  background: #000333; }
 #kopa-header.header-2 .wrap-main-menu .widget_search .kopa-search-input {
   padding-left: 0;
   padding-right: 0; }
@@ -6339,7 +6339,7 @@ body {
 
 .kopa-header-middle {
   padding: 15px 0;
-  background: #131313; }
+  background: #000333; }
 
 #kopa-logo .logo-mobile {
   display: none; }
@@ -6435,7 +6435,7 @@ body {
       right: 10px;
       border-top-color: #fff; }
   .sf-menu.main-menu ul li {
-    background: #131313;
+    background: #000333;
     text-align: right;}
     .sf-menu.main-menu ul li:hover {
       background: #538fff; }
@@ -6471,7 +6471,7 @@ body {
   .mobile-menu.main-menu a .caret {
     border-top-color: #fff; }
   .mobile-menu.main-menu li a {
-    background: #131313;
+    background: #000333;
     color: #fff;
     border-top: 1px solid #d8d8d8;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -6481,7 +6481,7 @@ body {
   .mobile-menu.main-menu li.current-menu-item > a {
     background: #538fff; }
   .mobile-menu.main-menu > li > a {
-    background: #131313;
+    background: #000333;
     color: #fff;
     border-top: 1px solid #d8d8d8;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -6796,7 +6796,7 @@ padding: 5px;
       width: 0;
       height: 0;
       border-top: 90px solid transparent;
-      border-right: 35px solid #131313;
+      border-right: 35px solid #000333;
       position: absolute;
       left: -35px;
       top: 0; }
@@ -6833,7 +6833,7 @@ padding: 5px;
       content: "";
       width: 0;
       padding: 0;
-      border-top: 44px solid #131313;
+      border-top: 44px solid #000333;
       border-left: 18px solid transparent;
       position: absolute;
       left: -18px;
@@ -6939,7 +6939,7 @@ padding: 5px;
     width: auto;
     padding: 0;
     width: 36px;
-    background: #131313;
+    background: #000333;
     position: absolute;
     right: 0;
     top: 0;
@@ -7016,7 +7016,7 @@ padding: 5px;
     text-align: center;
     cursor: pointer; }
     .widget-small-thumb-carousel-widget .prev:hover, .widget-small-thumb-carousel-widget .next:hover {
-      background: #131313 !important; }
+      background: #000333 !important; }
   .widget-small-thumb-carousel-widget .prev {
     right: 42px; }
   .widget-small-thumb-carousel-widget .next {
@@ -7055,7 +7055,7 @@ padding: 5px;
           color: #538fff; }
     .kopa-two-col-sync-carousel-widget .sync3 .post-caption {
       padding: 17px 25px;
-      background: #131313;
+      background: #000333;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -7085,7 +7085,7 @@ padding: 5px;
       margin-bottom: 5px; }
     .kopa-two-col-sync-carousel-widget .sync4 .item {
       padding: 15px 10px 15px 30px;
-      background: #131313;
+      background: #000333;
       cursor: pointer; }
       .kopa-two-col-sync-carousel-widget .sync4 .item:hover {
         background: #343434; }
@@ -7137,7 +7137,7 @@ padding: 5px;
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item:nth-child(3) {
       background: #343434; }
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item:nth-child(4) {
-      background: #131313; }
+      background: #000333; }
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item.synced {
       background: #538fff; }
   .kopa-two-col-sync-carousel-3-widget .sync8 .item {
@@ -7259,7 +7259,7 @@ padding: 5px;
 
 .kopa-two-col-sync-carousel-2-widget {
   position: relative;
-  background: #131313; }
+  background: #000333; }
   .kopa-two-col-sync-carousel-2-widget .widget-header {
     border-bottom: none !important;
     position: absolute;
@@ -7282,7 +7282,7 @@ padding: 5px;
     float: left;
     width: 216px;
     padding: 8px 8px 0;
-    background: #131313;
+    background: #000333;
     margin-top: 40px; }
     .kopa-two-col-sync-carousel-2-widget .sync6 .owl-wrapper {
       width: 100% !important; }
@@ -7364,7 +7364,7 @@ padding: 5px;
     float: left;
     background: #538fff; }
     .kopa-two-col-sync-carousel-2-widget .more-link:hover {
-      background: #131313; }
+      background: #000333; }
 
 #sidebar .kopa-two-col-sync-carousel-2-widget .sync5, #sidebar .kopa-two-col-sync-carousel-2-widget .sync6 {
   width: 100% !important; }
@@ -7417,7 +7417,7 @@ padding: 5px;
 
 .widget-area-15 {
   padding-bottom: 50px;
-  background: #131313;
+  background: #000333;
   position: relative; }
   .widget-area-15 .widget {
     border-bottom: 3px solid #538fff; }
@@ -7490,7 +7490,7 @@ padding: 5px;
       padding: 0 15px;
       text-align: center;
       position: absolute;
-      background: #131313;
+      background: #000333;
       width: 100%;
       left: 0;
       top: 345px;
@@ -7519,7 +7519,7 @@ padding: 5px;
       content: "";
       width: 0;
       padding: 0;
-      border-top: 44px solid #131313;
+      border-top: 44px solid #000333;
       border-left: 18px solid transparent;
       position: absolute;
       left: -18px;
@@ -7655,7 +7655,7 @@ padding: 5px;
   border: 2px solid #538fff;
   position: relative; }
   .kopa-list-posts-2-widget .more-link:hover, .kopa-list-posts-widget .more-link:hover {
-    background: #131313; }
+    background: #000333; }
   .kopa-list-posts-2-widget .more-link:before, .kopa-list-posts-widget .more-link:before {
     content: '';
     background: none;
@@ -7985,7 +7985,7 @@ padding: 5px;
 
 
 .kopa-media-widget2 .item1 .post-title {
-  background: #131313 !important; }
+  background: #000333 !important; }
   .kopa-media-widget2 .item1 .post-title span {
     background: #4d8bff !important; }
 .kopa-media-widget2 .item2 .post-title {
@@ -8032,7 +8032,7 @@ padding: 5px;
     left: 0;
     top: 0; }
   .widget_text .wp-video-playlist .wp-playlist-item.wp-playlist-playing {
-    background: #131313; }
+    background: #000333; }
     .widget_text .wp-video-playlist .wp-playlist-item.wp-playlist-playing:before {
       background: #4d8bff; }
 
@@ -8171,7 +8171,7 @@ padding: 5px;
   .kopa-shop-widget .kopa-price {
     display: block;
     line-height: 40px;
-    background: #131313;
+    background: #000333;
     text-align: center;
     border-top: 1px solid #464646;
 
@@ -8234,7 +8234,7 @@ height: 5px;
     color: #fff;
     cursor: pointer; }
     .kopa-shop-widget .prev:hover, .kopa-shop-widget .next:hover {
-      background: #131313 !important; }
+      background: #000333 !important; }
 
 #sidebar .kopa-shop-widget .widget-header {
   left: 30px; }
@@ -8362,7 +8362,7 @@ height: 5px;
   text-align: center; }
 
 .middle-bottom-sidebar {
-  background: #131313;
+  background: #000333;
   color: #dadada;
   padding: 45px 30px 25px;
   font-size: 12px; }
@@ -8393,7 +8393,7 @@ height: 5px;
   background: #d0d0d0;
   color: #727272; }
 .kopa-newletter-widget input[type="submit"] {
-  border-left: 1px solid #131313;
+  border-left: 1px solid #000333;
   background: #538fff;
   color: #fff;
   position: absolute;
@@ -8460,7 +8460,7 @@ height: 5px;
   display: block; }
 
 .bottom-bottom-sidebar {
-  background: #131313;
+  background: #000333;
   padding: 10px 0;
   border-top: 1px solid #3a3a3a;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -8722,7 +8722,7 @@ height: 5px;
   margin-bottom: 5px;
   display: inline-block; }
 .kopa-single-post .admin-rating .progress {
-  background: #131313;
+  background: #000333;
   margin-bottom: 0; }
 .kopa-single-post .user-rating {
   padding-top: 25px;
@@ -8758,14 +8758,14 @@ height: 5px;
   position: relative;
   text-align: left; }
   .kopa-single-post .kopa-slider .ui-widget-header {
-    background: #131313;
+    background: #000333;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0; }
   .kopa-single-post .kopa-slider .ui-slider-handle {
     border: 1px solid #538fff;
-    background: #131313;
+    background: #000333;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
@@ -9091,7 +9091,7 @@ height: 5px;
 * -----------------------------------------------------------------------------
 */
 #kopa-footer {
-  background: #131313;
+  background: #000333;
   padding: 15px 0; }
 
 #copy-right {
@@ -9226,7 +9226,7 @@ height: 5px;
 
   .kopa-full-width-sync-carousel-widget {
     padding-bottom: 40px;
-    background: #131313;
+    background: #000333;
     position: relative; }
     .kopa-full-width-sync-carousel-widget:before {
       content: "";
@@ -9737,7 +9737,7 @@ height: 5px;
       top: 140px; }
 
   .kopa-two-col-sync-carousel-3-widget {
-    background: #131313; }
+    background: #000333; }
     .kopa-two-col-sync-carousel-3-widget .sync7 {
       width: 400px; }
     .kopa-two-col-sync-carousel-3-widget .sync8 {
