@@ -6655,7 +6655,7 @@ ul.pager-page {
     border-color: #591600; }
 
   .page-links .comment {
-    background: #337aff;
+    background: #7285A8;
     color: #fff;
     border-color: #972904; }
 
@@ -7092,7 +7092,7 @@ padding: 5px;
         .kopa-two-col-sync-carousel-widget .sync4 .item:hover .post-title {
           color: #fff; }
     .kopa-two-col-sync-carousel-widget .sync4 .post-date {
-      color: #337aff; }
+      color: #7285A8; }
 
 #sidebar .kopa-two-col-sync-carousel-widget .sync4, #sidebar .kopa-two-col-sync-carousel-widget .sync3 {
   width: 100% !important; }
@@ -7327,7 +7327,7 @@ padding: 5px;
         width: 40px;
         height: 40px;
         line-height: 40px;
-        background: #337aff;
+        background: #7285A8;
         margin-left: 2px; }
   .kopa-two-col-sync-carousel-2-widget .post-meta {
     color: #fff;
@@ -7890,7 +7890,7 @@ padding: 5px;
       #sidebar .kopa-social-widget li:nth-child(3) a {
         background: #50648a; }
       #sidebar .kopa-social-widget li:nth-child(4) a {
-        background: #337aff; }
+        background: #7285A8; }
       #sidebar .kopa-social-widget li:nth-child(5) a {
         background: #374c73; }
     #sidebar .kopa-social-widget a {
@@ -8275,7 +8275,7 @@ height: 5px;
       .kopa-post-filter-widget .filters span.span2 {
         background: #50648a; }
       .kopa-post-filter-widget .filters span.span3 {
-        background: #337aff;
+        background: #7285A8;
         line-height: 42px; }
   .kopa-post-filter-widget .widget-content {
     margin: -1px -25px 0; }
@@ -8315,7 +8315,7 @@ height: 5px;
 **/
 #bottom-sidebar .widget-title {
   font-size: 20px;
-  color: #337aff;
+  color: #7285A8;
   line-height: 1;
   padding-bottom: 22px;
   position: relative;
@@ -8402,7 +8402,7 @@ height: 5px;
   line-height: 30px;
   padding: 0 15px; }
   .kopa-newletter-widget input[type="submit"]:hover {
-    background: #337aff; }
+    background: #7285A8; }
 
 .kopa-contact-info-widget ul {
   margin: 0;
@@ -8464,7 +8464,7 @@ height: 5px;
   padding: 10px 0;
   border-top: 1px solid #3a3a3a;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-  border-bottom: 4px solid #337aff; }
+  border-bottom: 4px solid #7285A8; }
 
 /**
 *
