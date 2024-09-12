@@ -6650,7 +6650,7 @@ ul.pager-page {
     border-color: #7285A8; }
 
   .page-links .more {
-    background: #1a6aff;
+    background: #374c73;
     color: #fff;
     border-color: #591600; }
 
@@ -7892,7 +7892,7 @@ padding: 5px;
       #sidebar .kopa-social-widget li:nth-child(4) a {
         background: #337aff; }
       #sidebar .kopa-social-widget li:nth-child(5) a {
-        background: #1a6aff; }
+        background: #374c73; }
     #sidebar .kopa-social-widget a {
       width: 56px;
       height: 56px;
@@ -8229,7 +8229,7 @@ height: 5px;
     display: inline-block;
     font-size: 20px;
     text-align: center;
-    background: #1a6aff;
+    background: #374c73;
     float: left;
     color: #fff;
     cursor: pointer; }
