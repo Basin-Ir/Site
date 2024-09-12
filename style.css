@@ -294,7 +294,7 @@ html {
 
 body {
   font-family: "B Yekan",tahoma, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 20px;
   color: #727272;
   background-color: white; }
@@ -423,26 +423,26 @@ h1, .h1 {
   font-size: 30px; }
 
 h2, .h2 {
-  font-size: 26px; }
+  font-size: 28px; }
 
 h3, .h3 {
-  font-size: 22px; }
+  font-size: 23px; }
 
 h4, .h4 {
-  font-size: 18px; }
+  font-size: 19px; }
 
 h5, .h5 {
-  font-size: 14px; }
+  font-size: 13px; }
 
 h6, .h6 {
-  font-size: 10px; }
+  font-size: 9px; }
 
 p {
   margin: 0 0 10px; }
 
 .lead {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 200;
   line-height: 1.4; }
   @media (min-width: 768px) {
