@@ -6640,7 +6640,7 @@ ul.pager-page {
     border-color: #7285A8; }
 
   .page-links .cat {
-    background: #669cff;
+    background: #374c73;
     color: #fff;
     border-color: #7285A8; }
 
@@ -7886,7 +7886,7 @@ padding: 5px;
       float: left;
       margin-bottom: 10px; }
       #sidebar .kopa-social-widget li:first-child a {
-        background: #669cff; }
+        background: #374c73; }
       #sidebar .kopa-social-widget li:nth-child(3) a {
         background: #50648a; }
       #sidebar .kopa-social-widget li:nth-child(4) a {
@@ -7943,7 +7943,7 @@ padding: 5px;
     width: 50px;
     font-size: 20px;
     color: #fff;
-    background: #669cff; }
+    background: #374c73; }
 
 .kopa-media-widget2 .post-title {
   font-size: 14px;
@@ -7974,7 +7974,7 @@ padding: 5px;
     width: 50px;
     font-size: 20px;
     color: #fff;
-    background: #669cff; }
+    background: #374c73; }
 
 .kopa-media-widget .item:nth-child(odd) .post-title {
   background: #343434; }
@@ -8248,7 +8248,7 @@ height: 5px;
     overflow: hidden; }
   .kopa-post-filter-widget .widget-title {
     float: left;
-    background: #669cff;
+    background: #374c73;
     line-height: 40px !important;
     padding: 0 20px;
     color: #fff; }
