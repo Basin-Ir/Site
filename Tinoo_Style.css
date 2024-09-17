@@ -6329,7 +6329,7 @@ body {
   padding: 6px 12px; }
 
 .kopa-header-top {
-  background: #95DD9F;
+  background: linear-gradient(135deg, #B2FFBE, #0A3B0E); 
   font-size: 11px;
   color: #dadada;
   text-transform: uppercase;
@@ -6352,7 +6352,7 @@ body {
   position: relative; }
 
 .wrap-main-menu {
-  background: #95DD9F;
+  background: linear-gradient(135deg, #B2FFBE, #0A3B0E); 
   height: 40px; }
   .wrap-main-menu .container {
     position: relative; }
