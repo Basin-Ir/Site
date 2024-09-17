@@ -6641,7 +6641,7 @@ ul.pager-page {
     border-color: #95DD9F; }
 
   .page-links .cat {
-    background: #9FE0AC;
+    background: #51a662;
     color: #fff;
     border-color: #95DD9F; }
 
@@ -6651,7 +6651,7 @@ ul.pager-page {
     border-color: #95DD9F; }
 
   .page-links .more {
-    background: #9FE0AC;
+    background: #51a662;
     color: #fff;
     border-color: #591600; }
 
@@ -7887,13 +7887,13 @@ padding: 5px;
       float: left;
       margin-bottom: 10px; }
       #sidebar .kopa-social-widget li:first-child a {
-        background: #9FE0AC; }
+        background: #51a662; }
       #sidebar .kopa-social-widget li:nth-child(3) a {
         background: #89C295; }
       #sidebar .kopa-social-widget li:nth-child(4) a {
         background: #95DD9F; }
       #sidebar .kopa-social-widget li:nth-child(5) a {
-        background: #9FE0AC; }
+        background: #51a662; }
     #sidebar .kopa-social-widget a {
       width: 56px;
       height: 56px;
@@ -7944,7 +7944,7 @@ padding: 5px;
     width: 50px;
     font-size: 20px;
     color: #fff;
-    background: #9FE0AC; }
+    background: #51a662; }
 
 .kopa-media-widget2 .post-title {
   font-size: 14px;
@@ -7975,7 +7975,7 @@ padding: 5px;
     width: 50px;
     font-size: 20px;
     color: #fff;
-    background: #9FE0AC; }
+    background: #51a662; }
 
 .kopa-media-widget .item:nth-child(odd) .post-title {
   background: #95DD9F; }
@@ -8230,7 +8230,7 @@ height: 5px;
     display: inline-block;
     font-size: 20px;
     text-align: center;
-    background: #9FE0AC;
+    background: #51a662;
     float: left;
     color: #fff;
     cursor: pointer; }
@@ -8249,7 +8249,7 @@ height: 5px;
     overflow: hidden; }
   .kopa-post-filter-widget .widget-title {
     float: left;
-    background: #9FE0AC;
+    background: #51a662;
     line-height: 40px !important;
     padding: 0 20px;
     color: #fff; }
