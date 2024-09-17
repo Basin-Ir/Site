@@ -6005,9 +6005,9 @@ blockquote {
     background: #0C4A11;
     margin-right: 2px; }
   .nav-tabs.kopa-tabs-2 li a:hover, .nav-tabs.kopa-tabs-2 li.active a, .nav-tabs.kopa-tabs-2 li.active a:focus, .nav-tabs.kopa-tabs-2 li.active a:hover, .nav-tabs.kopa-tabs-2 li a:focus {
-    background: #3f3f3f;
+    background: #147D1D;
     color: #fff;
-    border-color: #3f3f3f; }
+    border-color: #147D1D; }
   .nav-tabs.kopa-tabs-3 li a {
     color: #fff;
     background: #d8d8d8;
@@ -6949,7 +6949,7 @@ padding: 5px;
     .widget_search button:hover {
       background: #9AD9A6; }
   .widget_search input {
-    background: #3f3f3f;
+    background: #147D1D;
     color: #dadada;
     font-style: italic; }
 
@@ -7134,7 +7134,7 @@ padding: 5px;
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item:hover {
       background: #9AD9A6 !important; }
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item:nth-child(2) {
-      background: #3f3f3f; }
+      background: #147D1D; }
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item:nth-child(3) {
       background: #0C330F; }
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item:nth-child(4) {
@@ -7920,7 +7920,7 @@ padding: 5px;
   position: relative;
   margin: 0;
   font-weight: 400;
-  background: #3f3f3f;
+  background: #147D1D;
   overflow: hidden;
   padding-right: 50px; }
   .kopa-media-widget .post-title a {
@@ -7951,7 +7951,7 @@ padding: 5px;
   position: relative;
   margin: 0;
   font-weight: 400;
-  background: #3f3f3f;
+  background: #147D1D;
   overflow: hidden;
   padding-right: 50px; }
   .kopa-media-widget2 .post-title a {
@@ -8000,7 +8000,7 @@ padding: 5px;
 .widget_text .wp-video-playlist .wp-playlist-item {
   font-size: 14px;
   position: relative;
-  background: #3f3f3f;
+  background: #147D1D;
   padding: 15px 10px 15px 65px;
   overflow: hidden; }
   .widget_text .wp-video-playlist .wp-playlist-item a {
@@ -8063,7 +8063,7 @@ padding: 5px;
     width: 18px;
     height: 18px;
     line-height: 14px;
-    border: 2px solid #3f3f3f;
+    border: 2px solid #147D1D;
     color: #0C330F;
     background: none;
     -webkit-border-radius: 0;
@@ -8337,7 +8337,7 @@ height: 5px;
   padding: 0; }
 
 .top-bottom-sidebar {
-  background: #3f3f3f;
+  background: #147D1D;
   border-top: 1px solid #4d4d4d;
   border-bottom: 1px solid #4d4d4d; }
 
