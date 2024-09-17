@@ -5820,7 +5820,7 @@ ul.mobile-menu {
   font-size: 20px;
   margin: 0; }
   .kopa-full-width-sync-carousel-widget .sync1 .owl-controls .owl-buttons div:hover, .kopa-two-col-sync-carousel-2-widget .sync5 .owl-controls .owl-buttons div:hover {
-    background: #0C4A11 !important; }
+    background: #072909 !important; }
 
 .kopa-posts-widget ul, .kopa-accordion-widget ul {
   margin-bottom: 0; }
@@ -5952,7 +5952,7 @@ blockquote {
     color: #fff;
     line-height: 40px;
     text-align: center;
-    background: #0C4A11;
+    background: #072909;
     position: absolute;
     left: 0;
     top: 0; }
@@ -6002,12 +6002,12 @@ blockquote {
     border-color: #95DD9F; }
   .nav-tabs.kopa-tabs-2 li a {
     color: #fff;
-    background: #0C4A11;
+    background: #072909;
     margin-right: 2px; }
   .nav-tabs.kopa-tabs-2 li a:hover, .nav-tabs.kopa-tabs-2 li.active a, .nav-tabs.kopa-tabs-2 li.active a:focus, .nav-tabs.kopa-tabs-2 li.active a:hover, .nav-tabs.kopa-tabs-2 li a:focus {
-    background: #147D1D;
+    background: #0E5714;
     color: #fff;
-    border-color: #147D1D; }
+    border-color: #0E5714; }
   .nav-tabs.kopa-tabs-3 li a {
     color: #fff;
     background: #d8d8d8;
@@ -6084,7 +6084,7 @@ blockquote {
 .kopa-dropcap {
   text-transform: uppercase;
   color: #fff;
-  background: #0C4A11;
+  background: #072909;
   float: left;
   margin-right: 10px;
   text-align: center;
@@ -6094,7 +6094,7 @@ blockquote {
   line-height: 40px;
   font-size: 24px;
   font-weight: 700;
-  border: 1px solid #0C4A11; }
+  border: 1px solid #072909; }
   .kopa-dropcap.primary {
     background: #95DD9F;
     border-color: #95DD9F; }
@@ -6105,7 +6105,7 @@ blockquote {
     border-radius: 50%; }
   .kopa-dropcap.no-background {
     background: none;
-    color: #0C4A11;
+    color: #072909;
     border-color: #d8d8d8; }
     .kopa-dropcap.no-background.primary {
       color: #95DD9F;
@@ -6297,7 +6297,7 @@ body {
   position: relative;
   height: 50px;
   line-height: 50px;
-  background: #0C4A11;
+  background: #072909;
   bottom: auto; }
   #kopa-header.header-2 .wrap-second-menu .kopa-social-widget {
     float: right;
@@ -6321,7 +6321,7 @@ body {
 #kopa-header.header-2 .wrap-main-menu .widget_search button, #kopa-header.header-2 .wrap-main-menu .widget_search input {
   height: 40px; }
 #kopa-header.header-2 .wrap-main-menu .widget_search button:hover {
-  background: #0C4A11; }
+  background: #072909; }
 #kopa-header.header-2 .wrap-main-menu .widget_search .kopa-search-input {
   padding-left: 0;
   padding-right: 0; }
@@ -6436,7 +6436,7 @@ body {
       right: 10px;
       border-top-color: #fff; }
   .sf-menu.main-menu ul li {
-    background: #0C4A11;
+    background: #072909;
     text-align: right;}
     .sf-menu.main-menu ul li:hover {
       background: #95DD9F; }
@@ -6472,7 +6472,7 @@ body {
   .mobile-menu.main-menu a .caret {
     border-top-color: #fff; }
   .mobile-menu.main-menu li a {
-    background: #0C4A11;
+    background: #072909;
     color: #fff;
     border-top: 1px solid #d8d8d8;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -6482,7 +6482,7 @@ body {
   .mobile-menu.main-menu li.current-menu-item > a {
     background: #95DD9F; }
   .mobile-menu.main-menu > li > a {
-    background: #0C4A11;
+    background: #072909;
     color: #fff;
     border-top: 1px solid #d8d8d8;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -6797,7 +6797,7 @@ padding: 5px;
       width: 0;
       height: 0;
       border-top: 90px solid transparent;
-      border-right: 35px solid #0C4A11;
+      border-right: 35px solid #072909;
       position: absolute;
       left: -35px;
       top: 0; }
@@ -6834,7 +6834,7 @@ padding: 5px;
       content: "";
       width: 0;
       padding: 0;
-      border-top: 44px solid #0C4A11;
+      border-top: 44px solid #072909;
       border-left: 18px solid transparent;
       position: absolute;
       left: -18px;
@@ -6940,7 +6940,7 @@ padding: 5px;
     width: auto;
     padding: 0;
     width: 36px;
-    background: #0C4A11;
+    background: #072909;
     position: absolute;
     right: 0;
     top: 0;
@@ -6949,7 +6949,7 @@ padding: 5px;
     .widget_search button:hover {
       background: #95DD9F; }
   .widget_search input {
-    background: #147D1D;
+    background: #0E5714;
     color: #dadada;
     font-style: italic; }
 
@@ -7017,7 +7017,7 @@ padding: 5px;
     text-align: center;
     cursor: pointer; }
     .widget-small-thumb-carousel-widget .prev:hover, .widget-small-thumb-carousel-widget .next:hover {
-      background: #0C4A11 !important; }
+      background: #072909 !important; }
   .widget-small-thumb-carousel-widget .prev {
     right: 42px; }
   .widget-small-thumb-carousel-widget .next {
@@ -7056,7 +7056,7 @@ padding: 5px;
           color: #95DD9F; }
     .kopa-two-col-sync-carousel-widget .sync3 .post-caption {
       padding: 17px 25px;
-      background: #0C4A11;
+      background: #072909;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -7086,7 +7086,7 @@ padding: 5px;
       margin-bottom: 5px; }
     .kopa-two-col-sync-carousel-widget .sync4 .item {
       padding: 15px 10px 15px 30px;
-      background: #0C4A11;
+      background: #072909;
       cursor: pointer; }
       .kopa-two-col-sync-carousel-widget .sync4 .item:hover {
         background: #95DD9F; }
@@ -7134,11 +7134,11 @@ padding: 5px;
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item:hover {
       background: #95DD9F !important; }
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item:nth-child(2) {
-      background: #147D1D; }
+      background: #0E5714; }
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item:nth-child(3) {
       background: #95DD9F; }
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item:nth-child(4) {
-      background: #0C4A11; }
+      background: #072909; }
     .kopa-two-col-sync-carousel-3-widget .sync8 .owl-item.synced {
       background: #95DD9F; }
   .kopa-two-col-sync-carousel-3-widget .sync8 .item {
@@ -7260,7 +7260,7 @@ padding: 5px;
 
 .kopa-two-col-sync-carousel-2-widget {
   position: relative;
-  background: #0C4A11; }
+  background: #072909; }
   .kopa-two-col-sync-carousel-2-widget .widget-header {
     border-bottom: none !important;
     position: absolute;
@@ -7283,7 +7283,7 @@ padding: 5px;
     float: left;
     width: 216px;
     padding: 8px 8px 0;
-    background: #0C4A11;
+    background: #072909;
     margin-top: 40px; }
     .kopa-two-col-sync-carousel-2-widget .sync6 .owl-wrapper {
       width: 100% !important; }
@@ -7365,7 +7365,7 @@ padding: 5px;
     float: left;
     background: #95DD9F; }
     .kopa-two-col-sync-carousel-2-widget .more-link:hover {
-      background: #0C4A11; }
+      background: #072909; }
 
 #sidebar .kopa-two-col-sync-carousel-2-widget .sync5, #sidebar .kopa-two-col-sync-carousel-2-widget .sync6 {
   width: 100% !important; }
@@ -7418,7 +7418,7 @@ padding: 5px;
 
 .widget-area-15 {
   padding-bottom: 50px;
-  background: #0C4A11;
+  background: #072909;
   position: relative; }
   .widget-area-15 .widget {
     border-bottom: 3px solid #95DD9F; }
@@ -7491,7 +7491,7 @@ padding: 5px;
       padding: 0 15px;
       text-align: center;
       position: absolute;
-      background: #0C4A11;
+      background: #072909;
       width: 100%;
       left: 0;
       top: 345px;
@@ -7520,7 +7520,7 @@ padding: 5px;
       content: "";
       width: 0;
       padding: 0;
-      border-top: 44px solid #0C4A11;
+      border-top: 44px solid #072909;
       border-left: 18px solid transparent;
       position: absolute;
       left: -18px;
@@ -7656,7 +7656,7 @@ padding: 5px;
   border: 2px solid #95DD9F;
   position: relative; }
   .kopa-list-posts-2-widget .more-link:hover, .kopa-list-posts-widget .more-link:hover {
-    background: #0C4A11; }
+    background: #072909; }
   .kopa-list-posts-2-widget .more-link:before, .kopa-list-posts-widget .more-link:before {
     content: '';
     background: none;
@@ -7920,7 +7920,7 @@ padding: 5px;
   position: relative;
   margin: 0;
   font-weight: 400;
-  background: #147D1D;
+  background: #0E5714;
   overflow: hidden;
   padding-right: 50px; }
   .kopa-media-widget .post-title a {
@@ -7951,7 +7951,7 @@ padding: 5px;
   position: relative;
   margin: 0;
   font-weight: 400;
-  background: #147D1D;
+  background: #0E5714;
   overflow: hidden;
   padding-right: 50px; }
   .kopa-media-widget2 .post-title a {
@@ -7986,7 +7986,7 @@ padding: 5px;
 
 
 .kopa-media-widget2 .item1 .post-title {
-  background: #0C4A11 !important; }
+  background: #072909 !important; }
   .kopa-media-widget2 .item1 .post-title span {
     background: #89C295 !important; }
 .kopa-media-widget2 .item2 .post-title {
@@ -8000,7 +8000,7 @@ padding: 5px;
 .widget_text .wp-video-playlist .wp-playlist-item {
   font-size: 14px;
   position: relative;
-  background: #147D1D;
+  background: #0E5714;
   padding: 15px 10px 15px 65px;
   overflow: hidden; }
   .widget_text .wp-video-playlist .wp-playlist-item a {
@@ -8033,7 +8033,7 @@ padding: 5px;
     left: 0;
     top: 0; }
   .widget_text .wp-video-playlist .wp-playlist-item.wp-playlist-playing {
-    background: #0C4A11; }
+    background: #072909; }
     .widget_text .wp-video-playlist .wp-playlist-item.wp-playlist-playing:before {
       background: #89C295; }
 
@@ -8063,7 +8063,7 @@ padding: 5px;
     width: 18px;
     height: 18px;
     line-height: 14px;
-    border: 2px solid #147D1D;
+    border: 2px solid #0E5714;
     color: #95DD9F;
     background: none;
     -webkit-border-radius: 0;
@@ -8172,7 +8172,7 @@ padding: 5px;
   .kopa-shop-widget .kopa-price {
     display: block;
     line-height: 40px;
-    background: #0C4A11;
+    background: #072909;
     text-align: center;
     border-top: 1px solid #464646;
 
@@ -8235,7 +8235,7 @@ height: 5px;
     color: #fff;
     cursor: pointer; }
     .kopa-shop-widget .prev:hover, .kopa-shop-widget .next:hover {
-      background: #0C4A11 !important; }
+      background: #072909 !important; }
 
 #sidebar .kopa-shop-widget .widget-header {
   left: 30px; }
@@ -8337,7 +8337,7 @@ height: 5px;
   padding: 0; }
 
 .top-bottom-sidebar {
-  background: #147D1D;
+  background: #0E5714;
   border-top: 1px solid #4d4d4d;
   border-bottom: 1px solid #4d4d4d; }
 
@@ -8363,7 +8363,7 @@ height: 5px;
   text-align: center; }
 
 .middle-bottom-sidebar {
-  background: #0C4A11;
+  background: #072909;
   color: #dadada;
   padding: 45px 30px 25px;
   font-size: 12px; }
@@ -8394,7 +8394,7 @@ height: 5px;
   background: #d0d0d0;
   color: #727272; }
 .kopa-newletter-widget input[type="submit"] {
-  border-left: 1px solid #0C4A11;
+  border-left: 1px solid #072909;
   background: #95DD9F;
   color: #fff;
   position: absolute;
@@ -8461,7 +8461,7 @@ height: 5px;
   display: block; }
 
 .bottom-bottom-sidebar {
-  background: #0C4A11;
+  background: #072909;
   padding: 10px 0;
   border-top: 1px solid #3a3a3a;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -8723,7 +8723,7 @@ height: 5px;
   margin-bottom: 5px;
   display: inline-block; }
 .kopa-single-post .admin-rating .progress {
-  background: #0C4A11;
+  background: #072909;
   margin-bottom: 0; }
 .kopa-single-post .user-rating {
   padding-top: 25px;
@@ -8759,14 +8759,14 @@ height: 5px;
   position: relative;
   text-align: left; }
   .kopa-single-post .kopa-slider .ui-widget-header {
-    background: #0C4A11;
+    background: #072909;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0; }
   .kopa-single-post .kopa-slider .ui-slider-handle {
     border: 1px solid #95DD9F;
-    background: #0C4A11;
+    background: #072909;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
@@ -9092,7 +9092,7 @@ height: 5px;
 * -----------------------------------------------------------------------------
 */
 #kopa-footer {
-  background: #0C4A11;
+  background: #072909;
   padding: 15px 0; }
 
 #copy-right {
@@ -9227,7 +9227,7 @@ height: 5px;
 
   .kopa-full-width-sync-carousel-widget {
     padding-bottom: 40px;
-    background: #0C4A11;
+    background: #072909;
     position: relative; }
     .kopa-full-width-sync-carousel-widget:before {
       content: "";
@@ -9738,7 +9738,7 @@ height: 5px;
       top: 140px; }
 
   .kopa-two-col-sync-carousel-3-widget {
-    background: #0C4A11; }
+    background: #072909; }
     .kopa-two-col-sync-carousel-3-widget .sync7 {
       width: 400px; }
     .kopa-two-col-sync-carousel-3-widget .sync8 {
