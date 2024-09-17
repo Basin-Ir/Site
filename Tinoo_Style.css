@@ -6339,7 +6339,8 @@ body {
 
 .kopa-header-middle {
   padding: 15px 0;
-  background: #13731B; }
+  background: linear-gradient(135deg, #8FF891, #0A3B0E); 
+}
 
 #kopa-logo .logo-mobile {
   display: none; }
