@@ -6329,7 +6329,7 @@ body {
   padding: 6px 12px; }
 
 .kopa-header-top {
-  background: linear-gradient(135deg, #B2FFBE, #0A3B0E); 
+  background: linear-gradient(135deg, #dbffe1, #0A3B0E); 
   font-size: 11px;
   color: #dadada;
   text-transform: uppercase;
@@ -6339,7 +6339,7 @@ body {
 
 .kopa-header-middle {
   padding: 7px 0;
-  background: linear-gradient(135deg, #B2FFBE, #0A3B0E); 
+  background: linear-gradient(135deg, #dbffe1, #0A3B0E); 
 }
 
 #kopa-logo .logo-mobile {
@@ -6352,7 +6352,7 @@ body {
   position: relative; }
 
 .wrap-main-menu {
-  background: linear-gradient(135deg, #B2FFBE, #0A3B0E); 
+  background: linear-gradient(135deg, #dbffe1, #0A3B0E); 
   height: 40px; }
   .wrap-main-menu .container {
     position: relative; }
