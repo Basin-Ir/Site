@@ -730,7 +730,7 @@ pre {
   padding-left: 15px;
   padding-right: 15px; }
   .container:before, .container:after {
-    content: " ";
+    content: " "; 
     display: table; }
   .container:after {
     clear: both; }
