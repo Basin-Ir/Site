@@ -716,7 +716,7 @@ pre {
 .amarList li {
   list-style: none;
    padding: 6px 0px !important;
-   font-size: 11px;
+   font-size: 13px;
    border-color: #f4f4f4 !important;
 }
 
@@ -1818,7 +1818,7 @@ input[type="checkbox"],
 .input-group-sm > .input-group-btn > .btn {
   height: 30px;
   padding: 5px 10px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
@@ -2240,13 +2240,13 @@ select[multiple].input-lg,
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
@@ -2987,7 +2987,7 @@ input[type="button"].btn-block {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 20px;
   color: #999999; }
 
@@ -3240,7 +3240,7 @@ input[type="button"].btn-block {
   .input-group-sm > .input-group-addon,
   .input-group-sm > .input-group-btn > .input-group-addon.btn {
     padding: 5px 10px;
-    font-size: 11px;
+    font-size: 13px;
     border-radius: 3px; }
   .input-group-addon.input-lg,
   .input-group-lg > .input-group-addon,
@@ -3835,7 +3835,7 @@ input[type="button"].btn-block {
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 10px;
-  font-size: 11px; }
+  font-size: 13px; }
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
   border-bottom-left-radius: 3px;
@@ -3937,7 +3937,7 @@ input[type="button"].btn-block {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: bold;
   color: white;
   line-height: 1;
@@ -4106,7 +4106,7 @@ a.thumbnail.active {
   float: left;
   width: 0%;
   height: 100%;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 20px;
   color: white;
   text-align: center;
@@ -4719,7 +4719,7 @@ button.close {
   z-index: 1030;
   display: block;
   visibility: visible;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.4;
   opacity: 0;
   filter: alpha(opacity=0); }
@@ -5421,7 +5421,7 @@ ul.mobile-menu {
     display: inline-block;
     margin: 5px;
     padding: 3px 10px;
-    font-size: 11px;
+    font-size: 13px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
@@ -5444,7 +5444,7 @@ ul.mobile-menu {
     width: auto;
     color: #FFF;
     padding: 2px 10px;
-    font-size: 11px;
+    font-size: 13px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px; }
@@ -5942,7 +5942,7 @@ blockquote {
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -6228,7 +6228,7 @@ body {
   display: inline-block; }
 
 .post-meta {
-  font-size: 11px;
+  font-size: 13px;
   display: inline-block; }
   .post-meta > span {
     margin-left: 8px;
@@ -6277,7 +6277,7 @@ body {
   border: 2px solid #7285A8;
   color: #292929;
   display: inline-block;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 30px;
   padding: 0 15px;
   text-transform: uppercase;
@@ -6330,7 +6330,7 @@ body {
 
 .kopa-header-top {
   background: linear-gradient(135deg, #7285A8, #131313);
-  font-size: 11px;
+  font-size: 13px;
   color: #dadada;
   text-transform: uppercase;
   line-height: 28px; }
@@ -6392,7 +6392,7 @@ body {
       color: #7285A8; }
 
 .second-menu {
-  font-size: 11px;
+  font-size: 13px;
   margin: 0;
   float: right; }
   .second-menu a {
@@ -6790,7 +6790,7 @@ padding: 5px;
       left: 0;
       width: 100%;
       text-align: center;
-      font-size: 11px; }
+      font-size: 13px; }
     .widget-area-1 .kopa-weather-widget:before {
       content: "";
       width: 0;
@@ -7191,7 +7191,7 @@ padding: 5px;
 .kopa-big-thumb-widget .post-meta {
   text-transform: uppercase;
   color: #727272;
-  font-size: 11px;
+  font-size: 13px;
   margin-bottom: 10px; }
 .kopa-big-thumb-widget ul {
   margin-bottom: 0; }
@@ -7251,7 +7251,7 @@ padding: 5px;
   .kopa-no-thumb-widget.first-big-thumb li:first-child .post-meta {
     text-transform: uppercase;
     color: #727272;
-    font-size: 11px;
+    font-size: 13px;
     margin-bottom: 10px; }
   .kopa-no-thumb-widget.first-big-thumb li:first-child .post-caption p {
     margin-bottom: 15px;
@@ -7400,14 +7400,14 @@ padding: 5px;
   margin-bottom: 23px; }
 .kopa-tabs-widget .post-meta {
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 13px;
   margin-bottom: 10px; }
 .kopa-tabs-widget .post-title {
   font-size: 16px;
   margin-bottom: 10px;
   font-weight: 400; }
 .kopa-tabs-widget .post-caption p {
-  font-size: 11px;
+  font-size: 13px;
   margin-bottom: 15px; }
 
 .widget-area-14 {
@@ -7446,7 +7446,7 @@ padding: 5px;
       display: inline-block;
       color: #fff;
       text-transform: uppercase;
-      font-size: 11px;
+      font-size: 13px;
       margin-bottom: 8px; }
     .widget-area-15 .kopa-full-width-sync-carousel-widget .post-title {
       font-size: 32px; }
@@ -7478,7 +7478,7 @@ padding: 5px;
     .widget-area-15 .kopa-two-post-widget .post-meta {
       text-transform: uppercase;
       color: #dadada;
-      font-size: 11px;
+      font-size: 13px;
       margin-bottom: 20px;
       display: block;
       text-align: left; }
@@ -7604,7 +7604,7 @@ padding: 5px;
       font-weight: 700;
       margin-bottom: 5px; }
     .kopa-grid-post-widget .item.first-item .post-meta {
-      font-size: 11px;
+      font-size: 13px;
       text-transform: uppercase;
       color: #fff;
       margin-bottom: 5px; }
@@ -7763,7 +7763,7 @@ padding: 5px;
     display: inline-block;
     float: left;
     margin: 0 5px 5px 0;
-    font-size: 11px;
+    font-size: 13px;
     color: #292929; }
     .kopa-gallery-sync-carousel-widget .link-social a:hover {
       background: #7285A8;
@@ -7822,7 +7822,7 @@ padding: 5px;
   margin-bottom: 15px; }
 .kopa-post-filter-2-widget .post-cat {
   margin: 0;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
   position: absolute;
@@ -8082,13 +8082,13 @@ padding: 5px;
   margin-bottom: 15px; }
 .kopa-posts-widget.first-big .item:first-child .post-meta {
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 13px;
   margin-bottom: 10px; }
 .kopa-posts-widget.first-big .item:first-child .post-title {
   font-size: 16px;
   margin-bottom: 10px; }
 .kopa-posts-widget.first-big .item:first-child p {
-  font-size: 11px;
+  font-size: 13px;
   margin-bottom: 15px; }
 .kopa-posts-widget.first-big .item:first-child .post-caption {
   overflow: visible; }
@@ -8302,7 +8302,7 @@ height: 5px;
   .kopa-post-filter-widget .post-meta {
     text-transform: uppercase;
     color: #727272;
-    font-size: 11px;
+    font-size: 13px;
     margin-bottom: 10px; }
   .kopa-post-filter-widget .post-caption p {
     font-size: 13px;
@@ -8365,7 +8365,7 @@ height: 5px;
   background: #131313;
   color: #dadada;
   padding: 45px 30px 25px;
-  font-size: 11px; }
+  font-size: 13px; }
   .middle-bottom-sidebar a {
     color: #dadada; }
     .middle-bottom-sidebar a:hover {
@@ -8717,7 +8717,7 @@ height: 5px;
   margin-top: 0;
   margin-bottom: 10px; }
 .kopa-single-post .admin-rating .progress-title {
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 5px;
   margin-bottom: 5px;
   display: inline-block; }
@@ -8782,7 +8782,7 @@ height: 5px;
     top: 7px;
     color: #7285A8;
     left: 60%;
-    font-size: 11px;
+    font-size: 13px;
     margin-left: -10px; }
   .kopa-single-post .kopa-slider .ui-slider-range-min {
     left: 0;
@@ -8804,7 +8804,7 @@ height: 5px;
     display: inline-block;
     float: left;
     margin: 0 10px 0 0;
-    font-size: 11px;
+    font-size: 13px;
     color: #292929;
     width: 42px; }
     .kopa-single-post .link-social a:hover {
@@ -9096,7 +9096,7 @@ height: 5px;
 
 #copy-right {
   color: #dadada;
-  font-size: 11px;
+  font-size: 13px;
   text-align: center; }
 
 /* Back to top */
