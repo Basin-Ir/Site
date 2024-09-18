@@ -1659,7 +1659,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 19px;
   line-height: inherit;
   color: #333333;
   border: 0;
@@ -1703,7 +1703,7 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 7px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   color: #727272; }
 
@@ -1713,7 +1713,7 @@ output {
   width: 100%;
   height: 34px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   color: #727272;
   background-color: white;
@@ -2048,7 +2048,7 @@ select[multiple].input-lg,
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -2925,7 +2925,7 @@ input[type="button"].btn-block {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 14px;
+  font-size: 13px;
   background-color: white;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -3228,7 +3228,7 @@ input[type="button"].btn-block {
 
 .input-group-addon {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 1;
   color: #727272;
@@ -4829,7 +4829,7 @@ button.close {
 .popover-title {
   margin: 0;
   padding: 8px 14px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 18px;
   background-color: #f7f7f7;
@@ -5340,13 +5340,13 @@ ul.mobile-menu {
     background-color: #5D5D5D;
     color: #f5f5f5; }
   ul.mobile-menu li a {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     padding: 2px 10px; }
   ul.mobile-menu > li.active > a {
     background-color: #4D90FE; }
   ul.mobile-menu > li > a {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     padding: 4px 10px; }
 
@@ -5801,7 +5801,7 @@ ul.mobile-menu {
     .error-404 .right-col ul {
       padding-left: 15px; }
     .error-404 .right-col a {
-      font-size: 14px;
+      font-size: 13px;
       margin-bottom: 5px; }
   @media screen and (max-width: 800px) {
     .error-404 .left-col,
@@ -5899,7 +5899,7 @@ blockquote {
   border-left: 5px solid #7285A8;
   color: #292929;
   background: #d8d8d8;
-  font-size: 14px; }
+  font-size: 13px; }
   blockquote.kopa-blockquote {
     border-left: none;
     border-top: 5px solid #7285A8; }
@@ -6224,7 +6224,7 @@ body {
 
 .kopa-rate {
   color: #7285A8 !important;
-  font-size: 14px !important;
+  font-size: 13px !important;
   display: inline-block; }
 
 .post-meta {
@@ -6413,7 +6413,7 @@ body {
     background: none;
     padding: 10px 0; }
     .sf-menu.main-menu > li > a {
-      font-size: 16px;
+      font-size: 13px;
       font-family: "B Yekan",tahoma;
       font-weight: normal;
       padding: 0 15px;
@@ -6536,7 +6536,7 @@ ul.page-numbers li a,
 ul.page-numbers li span {
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 22px;
   color: #292929;
   padding: 0 8px;
@@ -6969,7 +6969,7 @@ padding: 5px;
     .widget-small-thumb-carousel-widget .widget-header .widget-title {
       line-height: 40px !important;
       background: #7285A8;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 700;
       color: #fff;
       padding: 0 107px 0 25px;
@@ -7146,7 +7146,7 @@ padding: 5px;
     margin-right: 13px; }
   .kopa-two-col-sync-carousel-3-widget .sync8 .post-title {
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 20px;
     margin-bottom: 0; }
@@ -7573,7 +7573,7 @@ padding: 5px;
   padding: 0 25px;
   background: #7285A8;
   color: #fff;
-  font-size: 14px; }
+  font-size: 13px; }
   .kopa-list-news-carousel-widget .widget-title:before {
     display: none; }
 .kopa-list-news-carousel-widget .kp-headline {
@@ -7770,7 +7770,7 @@ padding: 5px;
       border-color: #7285A8;
       color: #fff; }
     .kopa-gallery-sync-carousel-widget .link-social a i {
-      font-size: 14px;
+      font-size: 13px;
       margin-right: 5px; }
 .kopa-gallery-sync-carousel-widget aside {
   width: 200px;
@@ -7915,7 +7915,7 @@ padding: 5px;
     margin-bottom: 15px; }
 
 .kopa-media-widget .post-title {
-  font-size: 14px;
+  font-size: 13px;
   position: relative;
   margin: 0;
   font-weight: 400;
@@ -7946,7 +7946,7 @@ padding: 5px;
     background: #374c73; }
 
 .kopa-media-widget2 .post-title {
-  font-size: 14px;
+  font-size: 13px;
   position: relative;
   margin: 0;
   font-weight: 400;
@@ -7997,7 +7997,7 @@ padding: 5px;
   width: 100%;
   display: block; }
 .widget_text .wp-video-playlist .wp-playlist-item {
-  font-size: 14px;
+  font-size: 13px;
   position: relative;
   background: #3f3f3f;
   padding: 15px 10px 15px 65px;
@@ -8125,7 +8125,7 @@ padding: 5px;
       left: 15px;
       top: 18px;
       color: #727272;
-      font-size: 14px; }
+      font-size: 13px; }
     .kopa-accordion-widget .kopa-accordion .panel-heading .panel-title a.collapsed {
       background: #fafafa;
       border-bottom: 2px solid #d8d8d8; }
@@ -8189,7 +8189,7 @@ height: 5px;
     line-height: 20px;
     padding: 10px 0;
     width: 100%;
-    font-size: 14px;
+    font-size: 13px;
     text-transform: uppercase; }
     .kopa-shop-widget .post-title a {
       color: #fff; }
@@ -8741,7 +8741,7 @@ height: 5px;
       font-weight: 700;
       color: #292929; }
     .kopa-single-post .user-rating header h3 {
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 300;
       margin: 0 0 3px;
       text-transform: uppercase; }
@@ -8812,7 +8812,7 @@ height: 5px;
       border-color: #7285A8;
       color: #fff; }
     .kopa-single-post .link-social a i {
-      font-size: 14px;
+      font-size: 13px;
       margin-right: 0px; }
 .kopa-single-post .article-content {
   margin-top: 20px; }
@@ -8974,7 +8974,7 @@ height: 5px;
 .comment-respond input[type="submit"] {
   line-height: 40px;
   padding: 0 20px;
-  font-size: 14px;
+  font-size: 13px;
   text-transform: uppercase;
   border: none;
   color: #fff;
@@ -9062,7 +9062,7 @@ height: 5px;
     float: left;
     margin-right: 8px; }
   .kopa-relatedpost .post-title {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     margin-bottom: 0;
     font-weight: 400; }
@@ -9710,7 +9710,7 @@ height: 5px;
     width: 620px; }
 
   .widget-area-15 .kopa-two-post-widget .post-title {
-    font-size: 14px; }
+    font-size: 13px; }
   .widget-area-15 .kopa-two-post-widget .item {
     height: 364px; }
     .widget-area-15 .kopa-two-post-widget .item:hover .post-caption {
